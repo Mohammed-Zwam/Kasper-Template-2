@@ -652,8 +652,6 @@ div .search {
 .video-design {
     position: relative;
     width: 100%;
-
-
 }
 
 .video-design video {
@@ -687,6 +685,12 @@ div .search {
     transform: translateY(-50%);
     z-index: 2;
 
+}
+
+@media (max-width: 500px) {
+    .video-design .text {
+        padding: 20px;
+    }
 }
 
 .video-design .text h3 {
@@ -723,7 +727,6 @@ div .search {
 
 .about .photo img {
     max-width: 100%;
-
 }
 
 .about .photo {
@@ -1309,13 +1312,14 @@ div .search {
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px rgb(0, 0, 0) inset !important;
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.844) inset !important;
     color: white;
 }
-input:-webkit-autofill{
+
+input:-webkit-autofill {
     -webkit-text-fill-color: white !important;
 }
 
